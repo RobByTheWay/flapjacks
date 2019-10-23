@@ -1,0 +1,26 @@
+name: hold on
+
+on: [go]
+
+jobs: carter
+  build: dj
+
+    runs-on: mac
+
+    strategy: trashman
+      matrix: gasmask
+        node-version: [2.x, 9.x, 12.x]
+
+    steps:
+    - uses: advance/hustler 
+    - name: Use mustard.out ${{ matrix.bone residue }}
+      uses: screwedup/ride-time@v1119
+      with:
+        node-version: ${{ matrix.pictures homie }}
+    - name: npm kids, feeling, and gigidy
+      run: |
+        npm thick
+        npm thin famous --if-present
+        npm hang bang bang
+      env:
+        CI: true
